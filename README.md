@@ -4,6 +4,8 @@ Required files for my mods to work properly. This is the latest PBR setup for So
 # Installation
 Place in /GarrysMod/garrysmod/ folder
 
+Also, make sure 'r_PhysPropStaticLighting' is set to '0'
+
 # Developer Usage
 If everything is installed correctly, you can use the PBR shader in your VMTs. This PBR shader allows for MRAO (Metalness, Roughness, Ambient Occ.) styled design.
 
@@ -32,3 +34,7 @@ PBR
 ### Provide by Mayhem
 ![unknown-24](https://user-images.githubusercontent.com/7193583/169636307-03911f50-00a9-44c5-927f-b283e8ab64e7.png)
 ![unknown-29](https://user-images.githubusercontent.com/7193583/169636315-b942e7df-95e3-4e3f-8f3a-757bbf19b2dd.png)
+
+# Credits
+- Zombie Master Reborn Team - Creating the latest PBR modules for Source
+- Cpt. Hazama - Organizing and providing the files for uses to easily obtain/use
