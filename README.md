@@ -1,6 +1,9 @@
 # GMod PBR Modules
 Required files for my mods to work properly. This is the latest PBR setup for Source engine that allows 1:1 PBR.
 
+# Source Code
+[Link](https://github.com/thexa4/source-pbr/blob/a5811c3c9f665dc6a07548b91cab876cf6f49a14/mp/src/materialsystem/stdshaders/pbr_dx9.cpp)
+
 # Installation
 Place in /GarrysMod/garrysmod/ folder
 
