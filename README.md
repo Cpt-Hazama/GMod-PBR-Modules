@@ -7,7 +7,7 @@ Required files for my mods to work properly. This is the latest PBR setup for So
 # Installation
 Place in /GarrysMod/garrysmod/ folder
 
-Also, make sure 'r_PhysPropStaticLighting' is set to '0'
+Also, make sure 'r_PhysPropStaticLighting' is set to '0', otherwise when props "sleep" they will turn black. You can make this default to 0 by adding it to your autoexec.cfg in your /cfg/ folder
 
 If you experience any crashing, then download this version of the module by Yurie:
 https://yurie.thigh-high.club/r5xhxb5x.zip
@@ -26,12 +26,14 @@ PBR
 }
 ```
 
+Note that you must have $model 1 enabled for anything that isn't a brush! Otherwise it will not load the texture.
+
 ### New parameters:
-- $AlphaTestReference (0/1)
-- $MRAOTexture (Texture or "dev/pbr_mraotexture") - Texture with metalness in R, roughness in G, ambient occlusion in B
-- $EmissionTexture (Texture) - Emission texture
-- $UseENVAmbient (0/1) - Use the cubemaps to compute ambient light
-- $SpecularTexture (Texture) - Specular F0 RGB map
+- $AlphaTestReference (0/1) - Specifies the minimum color value of the alpha channel in which the effect is rounded to 255. A value of ".3" will create a thicker shape while a value of ".7" will create a thinner shape
+- $MRAOTexture (Texture or "dev/pbr_mraotexture") - Texture with metalness in R, roughness in G, ambient occlusion in B. Will default to the default texture if none is provided
+- $EmissionTexture (Texture) - Emissive texture; is a color texture, not a mask
+- $SpecularTexture (Texture) - Specular F0 RGB map, overrides metalness from the MRAO texture
+- $UseENVAmbient (0/1) - Use the cubemaps to compute ambient light, seems to cause a static lighting effect at certain angles in some areas
 - $Parallax (0/1) - Use Parallax Occlusion Mapping
 - $ParallaxDepth (Float) - Depth of the Parallax Map
 - $ParallaxCenter (Float) - Center depth of the Parallax Map
