@@ -18,14 +18,14 @@ If everything is installed correctly, you can use the PBR shader in your VMTs. T
 ```vmt
 "PBR"
 {
-    "$basetexture"              "models/cpthazama/mgr/mg_ray/em0200000"
-	"$bumpmap"					"models/cpthazama/mgr/mg_ray/em0200000_n"
+    	"$basetexture"              		"models/cpthazama/mgr/mg_ray/em0200000"
+	"$bumpmap"				"models/cpthazama/mgr/mg_ray/em0200000_n"
 	"$mraotexture"				"models/cpthazama/mgr/mg_ray/em0200000_mrao"
 	"$emissiontexture"			"models/cpthazama/mgr/mg_ray/em0200000_g"
 	"$speculartexture"			"models/cpthazama/mgr/mg_ray/em0200000_s"
 
-	"$model"					"1"
-	"$surfaceprop"      		"metal"
+	"$model"				"1"
+	"$surfaceprop"      			"metal"
 }
 ```
 
