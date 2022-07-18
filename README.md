@@ -42,7 +42,10 @@ Note that you must have $model 1 enabled for anything that isn't a brush! Otherw
 - $ParallaxCenter (Float) - Center depth of the Parallax Map
 
 # Examples
-### In-Game Screenshots (Provided by Mayhem)
+### In-Game Screenshots
+![20220717234226_1](https://user-images.githubusercontent.com/7193583/179635340-67cbf1f0-944f-4644-b2a7-a917ea9191f8.jpg)
+![20220707005942_1](https://user-images.githubusercontent.com/7193583/179635358-f350e345-24f9-41bc-8804-0446d2f941fb.jpg)
+![20220705013552_1](https://user-images.githubusercontent.com/7193583/179635385-59437ae4-971a-4c12-aecd-41dfd05e3967.jpg)
 ![unknown-24](https://user-images.githubusercontent.com/7193583/169636307-03911f50-00a9-44c5-927f-b283e8ab64e7.png)
 ![unknown-29](https://user-images.githubusercontent.com/7193583/169636315-b942e7df-95e3-4e3f-8f3a-757bbf19b2dd.png)
 
