@@ -16,13 +16,16 @@ https://yurie.thigh-high.club/r5xhxb5x.zip
 If everything is installed correctly, you can use the PBR shader in your VMTs. This PBR shader allows for MRAO (Metalness, Roughness, Ambient Occ.) styled design.
 
 ```vmt
-PBR
+"PBR"
 {
-    "$basetexture"      "models/cpthazama/weapons/axe/axe_bc"
-    "$bumpmap"          "models/cpthazama/weapons/axe/axe_n"
-    "$mraotexture"      "models/cpthazama/weapons/axe/axe_mrao"
-    "$emissiontexture"  "models/cpthazama/weapons/axe/mix25_e"
-    "$model"            "1"
+    "$basetexture"              "models/cpthazama/mgr/mg_ray/em0200000"
+	"$bumpmap"					"models/cpthazama/mgr/mg_ray/em0200000_n"
+	"$mraotexture"				"models/cpthazama/mgr/mg_ray/em0200000_mrao"
+	"$emissiontexture"			"models/cpthazama/mgr/mg_ray/em0200000_g"
+	"$speculartexture"			"models/cpthazama/mgr/mg_ray/em0200000_s"
+
+	"$model"					"1"
+	"$surfaceprop"      		"metal"
 }
 ```
 
