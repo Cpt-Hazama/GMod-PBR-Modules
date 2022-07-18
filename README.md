@@ -9,6 +9,9 @@ Place in /GarrysMod/garrysmod/ folder
 
 Also, make sure 'r_PhysPropStaticLighting' is set to '0'
 
+If you experience any crashing, then download this version of the module by Yurie:
+https://yurie.thigh-high.club/r5xhxb5x.zip
+
 # Developer Usage
 If everything is installed correctly, you can use the PBR shader in your VMTs. This PBR shader allows for MRAO (Metalness, Roughness, Ambient Occ.) styled design.
 
