@@ -41,6 +41,11 @@ Note that you must have $model 1 enabled for anything that isn't a brush! Otherw
 - $ParallaxDepth (Float) - Depth of the Parallax Map
 - $ParallaxCenter (Float) - Center depth of the Parallax Map
 
+### VTF Stuff:
+- Diffuse/Emission - DXT5
+- MRAO/Specular - DXT1
+- Normal - BGRA8888
+
 # Examples
 ### In-Game Screenshots
 ![20220717234226_1](https://user-images.githubusercontent.com/7193583/179635340-67cbf1f0-944f-4644-b2a7-a917ea9191f8.jpg)
