@@ -1,6 +1,9 @@
 # GMod PBR Modules
 Required files for my mods to work properly. This is the latest PBR setup for Source engine that allows 1:1 PBR.
 
+# Warning
+x64 version of GMod is unsupported, you must use the default, pre-release, or dev branches to use this shader.
+
 # Source Code
 [Link](https://github.com/zm-reborn/zmr-game/blob/9e96e4acc563f53516d339854a2e09f5427224ff/mp/src/materialsystem/stdshaders/pbr_dx9.cpp)
 
