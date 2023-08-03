@@ -18,6 +18,9 @@ https://yurie.thigh-high.club/r5xhxb5x.zip
 # Developer Usage
 If everything is installed correctly, you can use the PBR shader in your VMTs. This PBR shader allows for MRAO (Metalness, Roughness, Ambient Occ.) styled design.
 
+You can add this to your mod to ensure users will attempt to install the module:
+https://github.com/Cpt-Hazama/PBR-Module-Check
+
 ```vmt
 "PBR"
 {
